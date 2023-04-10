@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 1;
+    background-color: #333;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+    width: 120px;
+    text-align: center;
+    height: 40px;
+    padding: 10px 18px;
+
+}
+
+.navbar ul li a {
+
+    
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li:hover {
+    background-color: tomato;
+    border-radius: 5px;
+}
+
+.navbar h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.navbar span{
+    font-size: 50px;
+    color: tomato;
+}
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(bckground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer{
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    padding-top: 200px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.content h4 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.content h1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.content a {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 19px;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.content a:hover {
+    
+    background-color:tomato;
+}
+
+.re {
+    margin-left: 90px;
+    margin-right: 50px;
+    border: 1px solid tomato;
+    background-color: #ff775b;
+
+    width: 120px;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.re:hover{
+    font-weight: 500;
+    background-color: tomato;
+}
+
+.displayer{
+    
+    width: 100%;
+    height: 100vh;
+    background-color: #fcf7f8;
+}
+.ds{
+        background-color: #fcf7f8;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+}
+.ds .lyeb{
+    text-align: center;color: black;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.ds .lyeb span{
+    color: red;
+}
+
+.first{
+    display: flex;
+    height: 350px;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 350px;
+    margin-top: 50px;
+
+}
+
+.first .left{
+    width: 500px;
+    background-image: url(goa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+.first .right{
+    width: 700px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+.second{
+    display: flex;
+    height: 350px;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-right: 150px;
+    margin-top: 50px;
+
+}
+
+.second .right{
+    width: 500px;
+    background-image: url(mumbai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+.second .left{
+    width: 700px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+
+.third{
+    display: flex;
+    height: 350px;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 350px;
+    margin-top: 50px;
+
+}
+
+.third .left{
+    width: 500px;
+    background-image: url(Manali.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+.third .right{
+    width: 700px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+.forth{
+    display: flex;
+    height: 350px;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.forth .right{
+    width: 500px;
+    background-image: url(Ooty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+.forth .left{
+    width: 700px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.lrn
+{
+    max-width: 200px;
+    text-decoration: none;
+    color: red;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #333;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+}
